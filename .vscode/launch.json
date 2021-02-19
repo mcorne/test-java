@@ -6,16 +6,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Current File",
+            "name": "Launch DemoApplication",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "DemoApplication",
+            "projectName": "test-java_7930ccc5"
         },
         {
             "type": "java",
-            "name": "Launch Hello",
+            "name": "Launch Current File",
             "request": "launch",
-            "mainClass": "Hello",
-            "projectName": "test-java_7930ccc5"
+            "mainClass": "${file}"
         }
     ]
 }
